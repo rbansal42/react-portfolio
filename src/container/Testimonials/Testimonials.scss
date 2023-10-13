@@ -55,6 +55,11 @@
 		line-height: 2rem;
 		color: var(--black-color);
 		font-family: (--font-base);
+
+    @media screen and (max-width: 700px) {
+      font-size: 1rem;
+      padding-top: 1rem;
+    }
 	}
 
 	h4 {
@@ -67,6 +72,12 @@
 		color: var(--gray-color);
 		margin-top: 5px;
 	}
+
+  @media screen and (max-width: 400px) {
+    padding: 0 0rem;
+  }
+
+
 }
 
 .app__testimonial-btns {
